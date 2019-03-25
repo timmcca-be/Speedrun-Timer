@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="0.00"
+        android:textAlignment="textEnd"
+        android:textSize="50sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark" />
+
+</LinearLayout>

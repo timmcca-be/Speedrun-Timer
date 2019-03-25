@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="error_running">Already running</string>
+    <string name="error_nonumber">No number entered</string>
+    <string name="error_toobig">Enter times less than 10^12 seconds</string>
+    <string name="npDialog_title">Ticking start time</string>
+</resources>

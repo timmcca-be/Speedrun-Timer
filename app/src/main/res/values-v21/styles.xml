@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Tim.Light" parent="android:Theme.Material.Light.DarkActionBar" >
+        <item name="android:colorAccent">@color/Pink</item>
+    </style>
+</resources>
